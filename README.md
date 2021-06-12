@@ -30,6 +30,7 @@ Instalação:
       
 4 - Após os requerimentos instalados, rode a API.
       $ py run.py
+      
       ![image](https://user-images.githubusercontent.com/13951346/121788574-3afe1980-cb9c-11eb-9593-8fadef758727.png)
 
       Se ver essa imagem, deu tudo certo e a API está instalada e funcional!
