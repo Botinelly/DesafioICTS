@@ -4,11 +4,14 @@ A API foi criada pra ajudar o seu Chico a coletar e analisar os dados dos seus d
 API codificada usando Python através do framework Flask, onde as funções de retorno retornam JSON.
 
 Estrutura:
-app
-  - Controllers   #Controladores de rotas e códigos da API
-  - Models    #Modelos das tabelas dos banco de dados
-  __init__.py    #Controlador dos módulos acima
-run.py    #Script que roda a API
+
+- app
+    - Controllers   #Controladores de rotas e códigos da API
+    - Models    #Modelos das tabelas dos banco de dados
+    __init__.py    #Controlador dos módulos acima
+- run.py    #Script que roda a API
+
+
 
 Pré-requisitos:
 Python 3.9
@@ -28,4 +31,5 @@ Instalação:
 4 - Após os requerimentos instalados, rode a API.
       $ py run.py
       ![image](https://user-images.githubusercontent.com/13951346/121788574-3afe1980-cb9c-11eb-9593-8fadef758727.png)
+
       Se ver essa imagem, deu tudo certo e a API está instalada e funcional!
