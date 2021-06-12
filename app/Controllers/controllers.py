@@ -21,7 +21,7 @@ def home():
 def cria_banco():
     #RODAR ESSA PRIMEIRO! Primeira rota a ser rodada para criação do Banco de acordo com as classes criadas
     db.create_all()
-    return ("Done!", 200)
+    return ("Banco de dados criado com sucesso!", 200)
 
 
 """------------------APARELHOS------------------"""
