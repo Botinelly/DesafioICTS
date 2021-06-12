@@ -12,25 +12,23 @@ Estrutura:
 - run.py    #Script que roda a API
 
 
-
 Pré-requisitos:
-Python 3.9
+- Python 3.9
 
 Instalação:
 0 - Faça o Download do repositório e abra um termina dentro da pasta
 
 1 - Baixe o ambiente virtual do Python para a instalação ser bem limpa
-      $ pip install virtualenv
-      
-2 - Crie um ambiente virtual para instalação dos pacotes
-      $ virtualenv venv
+$ pip install virtualenv
 
-3 - Instale o pacote de requerimentos usando o arquivo requirements.txt disponibilizado no repositório
+2 - Crie um ambiente virtual para instalação dos pacotes
+      	$ virtualenv venv
+        
+3 – Ative o ambiente virtual (Varia do sistema operacional que está sendo utilizado)
+	$ .venv/Scripts/activate
+    
+4 - Instale o pacote de requerimentos usando o arquivo requirements.txt disponibilizado no repositório
       $ pip install -r requirements.txt
       
-4 - Após os requerimentos instalados, rode a API.
-      $ py run.py
-      
-      ![image](https://user-images.githubusercontent.com/13951346/121788574-3afe1980-cb9c-11eb-9593-8fadef758727.png)
-
-      Se ver essa imagem, deu tudo certo e a API está instalada e funcional!
+5 - Após os requerimentos instalados, rode a API.
+      $ py run.py      
